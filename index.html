@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coffee shop website design</title>
+    <title>Coffee Shop Website</title>
 
-    <!-- font awesome cdn link  -->
+    <!-- Font Awesome CDN for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    
-<!-- header section starts  -->
 
+<!-- Header Section: Contains the logo, navigation bar, and icons for search, cart, and menu -->
 <header class="header">
 
+    <!-- Logo -->
     <a href="#" class="logo">
-        <img src="images/logo.png" alt="">
+        <img src="logo.png" alt="Coffee Shop Logo">
     </a>
 
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <a href="#home">home</a>
         <a href="#about">about</a>
@@ -33,127 +34,109 @@
         <a href="#blogs">blogs</a>
     </nav>
 
+    <!-- Icons: Search, Cart, and Menu (for responsive design) -->
     <div class="icons">
         <div class="fas fa-search" id="search-btn"></div>
         <div class="fas fa-shopping-cart" id="cart-btn"></div>
         <div class="fas fa-bars" id="menu-btn"></div>
     </div>
 
+    <!-- Search Form (hidden by default) -->
     <div class="search-form">
         <input type="search" id="search-box" placeholder="search here...">
         <label for="search-box" class="fas fa-search"></label>
     </div>
 
+    <!-- Cart Items Container (hidden by default) -->
     <div class="cart-items-container">
-
         <a href="#" class="btn">checkout now</a>
     </div>
 
 </header>
+<!-- Header Section Ends -->
 
-<!-- header section ends -->
-
-<!-- home section starts  -->
-
+<!-- Home Section: The main landing area with a background image and a call-to-action -->
 <section class="home" id="home">
-
     <div class="content">
         <h3>fresh coffee in the morning</h3>
-        <p>It's easy to pick up the same coffee you've been drinking for years, but today's coffee selection is vast and impressive. </p>
+        <p>It's easy to pick up the same coffee you've been drinking for years, but today's coffee selection is vast and impressive.</p>
         <a href="#menu" class="btn">get yours now</a>
     </div>
-
 </section>
+<!-- Home Section Ends -->
 
-<!-- home section ends -->
-
-<!-- about section starts  -->
-
+<!-- About Section: Provides information about the coffee shop -->
 <section class="about" id="about">
-
     <h1 class="heading"> <span>about</span> us </h1>
-
     <div class="row">
-
         <div class="image">
-            <img src="images/about-img.jpeg" alt="">
+            <img src="about-img.jpeg" alt="About Us Image">
         </div>
-
         <div class="content">
             <h3>what makes our coffee special?</h3>
             <p>The first thing that comes to mind when thinking about specialty coffee is its advanced quality. The flavors hidden in a cup of coffee are rich and crisp, and this comes not just from the quality of the specialty coffee beans, but from the work ethic and dedication put into it by the farmer</p>
             <p>We grade our coffees into different sizes and quality</p>
             <a href="https://www.thirdwavecoffeeroasters.com/blogs/blog/specialty-coffee-what-makes-it-so-special#:~:text=The%20first%20thing%20that%20comes,into%20it%20by%20the%20farmer." class="btn">learn more</a>
         </div>
-
     </div>
-
 </section>
+<!-- About Section Ends -->
 
-<!-- about section ends -->
-
-<!-- menu section starts  -->
-
+<!-- Menu Section: Displays the coffee menu with prices -->
 <section class="menu" id="menu">
-
     <h1 class="heading"> our <span>menu</span> </h1>
-
     <div class="box-container">
-
+        <!-- Menu Item 1 -->
         <div class="box">
-            <img src="images/menu-1.png" alt="">
+            <img src="menu-1.png" alt="Cappuccino">
             <h3>Cappuccino</h3>
             <div class="price">$15.99 <span>20.99</span></div>
             <a href="#" class="btn">add to cart</a>
         </div>
-
+        <!-- Menu Item 2 -->
         <div class="box">
-            <img src="images/menu-2.png" alt="">
+            <img src="menu-2.png" alt="Cafe Latte">
             <h3>Cafe Latte</h3>
             <div class="price">$21.99 <span>25.99</span></div>
             <a href="#" class="btn">add to cart</a>
         </div>
-
+        <!-- Menu Item 3 -->
         <div class="box">
-            <img src="images/menu-3.png" alt="">
+            <img src="menu-3.png" alt="Doppio">
             <h3>Doppio</h3>
             <div class="price">$8.99 <span>10.99</span></div>
             <a href="#" class="btn">add to cart</a>
         </div>
-
+        <!-- Menu Item 4 -->
         <div class="box">
-            <img src="images/menu-4.png" alt="">
+            <img src="menu-4.png" alt="Espresso">
             <h3>Espresso</h3>
             <div class="price">$18.99 <span>23.99</span></div>
             <a href="#" class="btn">add to cart</a>
         </div>
-
+        <!-- Menu Item 5 -->
         <div class="box">
-            <img src="images/menu-5.png" alt="">
+            <img src="menu-5.png" alt="Mocha">
             <h3>Mocha</h3>
             <div class="price">$6.49 <span>8.99</span></div>
             <a href="#" class="btn">add to cart</a>
         </div>
-
+        <!-- Menu Item 6 -->
         <div class="box">
-            <img src="images/menu-6.png" alt="">
+            <img src="menu-6.png" alt="Arabica">
             <h3>Arabica</h3>
             <div class="price">$10.99 <span>13.49</span></div>
             <a href="#" class="btn">add to cart</a>
         </div>
-
     </div>
-
 </section>
+<!-- Menu Section Ends -->
 
-<!-- menu section ends -->
-
+<!-- Products Section: Showcases coffee products for sale -->
 <section class="products" id="products">
-
     <h1 class="heading"> our <span>products</span> </h1>
-
     <div class="box-container">
-
+        <!-- Product 1 -->
         <div class="box">
             <div class="icons">
                 <a href="#" class="fas fa-shopping-cart"></a>
@@ -161,7 +144,7 @@
                 <a href="#" class="fas fa-eye"></a>
             </div>
             <div class="image">
-                <img src="images/product-1.png" alt="">
+                <img src="product-1.png" alt="Fresh Coffee Product">
             </div>
             <div class="content">
                 <h3>fresh coffee</h3>
@@ -175,7 +158,7 @@
                 <div class="price">$32.99 <span>$35.99</span></div>
             </div>
         </div>
-
+        <!-- Product 2 -->
         <div class="box">
             <div class="icons">
                 <a href="#" class="fas fa-shopping-cart"></a>
@@ -183,7 +166,7 @@
                 <a href="#" class="fas fa-eye"></a>
             </div>
             <div class="image">
-                <img src="images/product-2.png" alt="">
+                <img src="product-2.png" alt="Fresh Coffee Product">
             </div>
             <div class="content">
                 <h3>fresh coffee</h3>
@@ -197,7 +180,7 @@
                 <div class="price">$15.99 <span>$20.99</span></div>
             </div>
         </div>
-
+        <!-- Product 3 -->
         <div class="box">
             <div class="icons">
                 <a href="#" class="fas fa-shopping-cart"></a>
@@ -205,7 +188,7 @@
                 <a href="#" class="fas fa-eye"></a>
             </div>
             <div class="image">
-                <img src="images/product-3.png" alt="">
+                <img src="product-3.png" alt="Fresh Coffee Product">
             </div>
             <div class="content">
                 <h3>fresh coffee</h3>
@@ -219,23 +202,19 @@
                 <div class="price">$37.49 <span>$39.99</span></div>
             </div>
         </div>
-
     </div>
-
 </section>
+<!-- Products Section Ends -->
 
-<!-- review section starts  -->
-
+<!-- Review Section: Displays customer reviews -->
 <section class="review" id="review">
-
     <h1 class="heading"> customer's <span>review</span> </h1>
-
     <div class="box-container">
-
+        <!-- Review 1 -->
         <div class="box">
-            <img src="images/quote-img.png" alt="" class="quote">
+            <img src="quote-img.png" alt="Quote" class="quote">
             <p>This place is amazing! They offered the best coffee and showed the best attitude to its costumers. Internet connection is very fast and is unlimited as well. This place is indeed perfect for studying and chilling out. It was very quiet and air-conditioned. Thank you!</p>
-            <img src="images/pic-1.png" class="user" alt="">
+            <img src="pic-1.png" class="user" alt="Customer 1">
             <h3>Abdelrahman Khamis</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
@@ -245,11 +224,11 @@
                 <i class="fas fa-star-half-alt"></i>
             </div>
         </div>
-
+        <!-- Review 2 -->
         <div class="box">
-            <img src="images/quote-img.png" alt="" class="quote">
-            <p> I would probably say that this coffee shop is a must for coffee lovers! The service was good, and the variety of coffee served in the ambiance was very satisfying. If you like your coffee shops, then this is a must-visit! We will be back again!</p>
-            <img src="images/pic-2.png" class="user" alt="">
+            <img src="quote-img.png" alt="Quote" class="quote">
+            <p> I would probably say that this coffee shop is a must for coffee lovers! The service was good, and the variety of coffee served in the ambiance was very satisfying. If you like your coffee shops, then this is a a must-visit! We will be back again!</p>
+            <img src="pic-2.png" class="user" alt="Customer 2">
             <h3>Mariam Helal</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
@@ -259,11 +238,11 @@
                 <i class="fas fa-star"></i>
             </div>
         </div>
-        
+        <!-- Review 3 -->
         <div class="box">
-            <img src="images/quote-img.png" alt="" class="quote">
+            <img src="quote-img.png" alt="Quote" class="quote">
             <p>Excellent espresso, pastries, hot chocolate, location, and ambiance. This coffee shop is indeed a great place to kill your time, do business, and to study as well. The coffees and hot chocolates they had was so delicious.</p>
-            <img src="images/pic-3.png" class="user" alt="">
+            <img src="pic-3.png" class="user" alt="Customer 3">
             <h3>Omar Tamer</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
@@ -273,23 +252,17 @@
                 <i class="fas fa-star-half-alt"></i>
             </div>
         </div>
-
     </div>
-
 </section>
+<!-- Review Section Ends -->
 
-<!-- review section ends -->
-
-<!-- contact section starts  -->
-
+<!-- Contact Section: Contains a map and a contact form -->
 <section class="contact" id="contact">
-
     <h1 class="heading"> <span>contact</span> us </h1>
-
     <div class="row">
-
+        <!-- Google Maps Embed -->
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629452077891!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
-
+        <!-- Contact Form -->
         <form action="">
             <h3>get in touch</h3>
             <div class="inputBox">
@@ -310,67 +283,54 @@
             </div>
             <input type="submit" value="contact now" class="btn">
         </form>
-
     </div>
-
 </section>
+<!-- Contact Section Ends -->
 
-<!-- contact section ends -->
-
-<!-- blogs section starts  -->
-
+<!-- Blogs Section: Displays blog posts -->
 <section class="blogs" id="blogs">
-
     <h1 class="heading"> our <span>blogs</span> </h1>
-
     <div class="box-container">
-
+        <!-- Blog Post 1 -->
         <div class="box">
             <div class="image">
-                <img src="images/blog-1.jpeg" alt="">
+                <img src="blog-1.jpeg" alt="Espresso Blog Post">
             </div>
             <div class="content">
                 <a href="#" class="title">Espresso</a>
-
                 <p>The espresso, also known as a short black, is approximately 1 oz. of highly concentrated coffee. Although simple in appearance, it can be difficult to master.</p>
                 <a href="https://www.taftcoffee.com/blogs/blog/espresso-nedir-nasil-yapilir" class="btn">read more</a>
             </div>
         </div>
-
+        <!-- Blog Post 2 -->
         <div class="box">
             <div class="image">
-                <img src="images/blog-2.jpeg" alt="">
+                <img src="blog-2.jpeg" alt="Mocha Blog Post">
             </div>
             <div class="content">
                 <a href="#" class="title">Mocha</a>
-
                 <p>The mocha is considered a coffee and hot chocolate hybrid. The chocolate powder or syrup gives it a rich and creamy flavor and cuts the acidity of the espresso.</p>
                 <a href="https://www.indianhealthyrecipes.com/mocha-recipe/" class="btn">read more</a>
             </div>
         </div>
-
+        <!-- Blog Post 3 -->
         <div class="box">
             <div class="image">
-                <img src="images/blog-3.jpeg" alt="">
+                <img src="blog-3.jpeg" alt="Cappuccino Blog Post">
             </div>
             <div class="content">
                 <a href="#" class="title">Cappuccino</a>
-
                 <p>A cappuccino is an Italian coffee drink that is traditionally prepared with equal parts double espresso, steamed milk, and steamed milk foam on top.</p>
                 <a href="https://www.bbcgoodfood.com/recipes/cappuccino" class="btn">read more</a>
             </div>
         </div>
-
     </div>
-
 </section>
+<!-- Blogs Section Ends -->
 
-<!-- blogs section ends -->
-
-<!-- footer section starts  -->
-
+<!-- Footer Section: Contains social media links, navigation links, and credits -->
 <section class="footer">
-
+    <!-- Social Media Links -->
     <div class="share">
         <a href="#" class="fab fa-facebook-f"></a>
         <a href="#" class="fab fa-twitter"></a>
@@ -378,7 +338,7 @@
         <a href="#" class="fab fa-linkedin"></a>
         <a href="#" class="fab fa-pinterest"></a>
     </div>
-
+    <!-- Navigation Links -->
     <div class="links">
         <a href="#home">home</a>
         <a href="#about">about</a>
@@ -388,15 +348,13 @@
         <a href="#contact">contact</a>
         <a href="#blogs">blogs</a>
     </div>
-
+    <!-- Credits -->
     <div class="credit">created by <span>Alaa El sherif & Rofida Tamer and Omnia Salman</span> | all rights reserved</div>
-
 </section>
+<!-- Footer Section Ends -->
 
-<!-- footer section ends -->
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
+<!-- Custom JS file -->
+<script src="script.js"></script>
 
 </body>
 </html>
